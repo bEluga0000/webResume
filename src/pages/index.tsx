@@ -32,13 +32,6 @@ export default function Home() {
           <RightSide/>
         </div>
         <div>
-            <div className="relative flex items-center w-full">
-              <div className="border-t-2 border-gray-500 w-full"></div>
-              <div className="absolute left-0 top-1/2 transform -translate-y-1/2 w-2 h-2 bg-gray-500 rounded-full"></div>
-              <div className="absolute right-0 top-1/2 transform -translate-y-1/2 w-2 h-2 bg-gray-500 rounded-full"></div>
-            </div>
-        </div>
-        <div>
           <LeftSide/>
         </div>
       </div>
