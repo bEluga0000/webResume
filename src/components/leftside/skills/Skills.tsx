@@ -8,11 +8,11 @@ const Skills:React.FC<SkillsProps> = ({
     title,
     skills
 })=>{
-    return <div className="flex flex-col gap-5">
+    return <div className="flex flex-col gap-2">
         <div>
             <SectionHeading desc={title.desc}/>
         </div>
-        <div className="flex flex-col gap-3">
+        <div className="flex sm:flex-col gap-3 flex-wrap">
             {
                 skills.map((skill)=>{
                     return <MultipleSkills skill={skill.skill}/>

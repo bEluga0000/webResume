@@ -9,13 +9,13 @@ const PersonalLinks:React.FC<PersonalLinksProps> = ({
     icon,
     value
 })=>{
-    return <div className="flex justify-between">
-        <div className="flex items-center gap-2">
-            <div>
+    return <div className="flex justify-between mb-2">
+        <div className="flex items-center gap-1">
+            <div className="text-red-600">
                 {icon}
             </div>
             <div>
-                <p>{value}</p>
+                <p className="text-sm">{value}</p>
             </div>
         </div>
     </div>

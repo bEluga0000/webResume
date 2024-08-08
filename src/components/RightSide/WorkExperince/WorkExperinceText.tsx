@@ -12,14 +12,14 @@ const WorkExperinceText:React.FC<WorkExperinceTextProps> = ({
     place,
     experience
 }) => {
-    return <div >
-        <div className="text-xl font-bold">
+    return <div className="flex flex-col gap-0.5">
+        <div className="text-base font-bold">
             {office}
         </div>
-        <div className="text-lg font-medium">
+        <div className="text-sm font-medium">
             {profesion}
         </div>
-        <div className="text-sm italic flex justify-between text-red-600">
+        <div className="text-xs italic flex justify-between text-red-600">
             <div>
                 {date}
             </div>
@@ -27,14 +27,14 @@ const WorkExperinceText:React.FC<WorkExperinceTextProps> = ({
                 {place}
             </div>
         </div>
-        <div className="text-sm text-red-600 italic">
+        <div className="text-xs text-red-600 italic">
             Achivements
         </div>
         <div>
-            <ul className="list-disc">
+            <ul className="list-disc pl-3">
                 {
                     experience.map((e)=>{
-                        return <li>{e}</li>
+                        return <li className="text-sm pt-1">{e}</li>
                     })
                 }
             </ul>

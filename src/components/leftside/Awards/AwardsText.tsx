@@ -7,10 +7,10 @@ const AwardsText:React.FC<AwardsTextProps> = ({
     place
 })=>{
     return <div>
-        <p className="text-xl font-medium">
+        <p className="text-base font-bold">
             {name}
         </p>
-        <div className="text-sm text-slate-500 font-medium italic">
+        <div className="text-xs text-slate-500 font-medium italic">
             <p>{place}</p>
         </div>
     </div>

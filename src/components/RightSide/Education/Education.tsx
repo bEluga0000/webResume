@@ -9,11 +9,11 @@ const Education:React.FC<EducationProps> = ({
     title,
     education
 })=>{
-    return <div>
+    return <div className="flex flex-col gap-1">
         <div>
             <SectionHeading desc={title.desc}/>
         </div>
-        <div>
+        <div className="flex flex-col gap-0.5">
             {
                 education.map((e)=>{
                     return <EducationText qualification={e.qualification} university={e.university} year={e.year}/>

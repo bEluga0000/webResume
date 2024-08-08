@@ -17,9 +17,12 @@
 }
 
 
-/* body {
- 
-} */
+body {
+  margin: 0;
+  padding: 0;
+  background: url('/images/background.jpg') no-repeat center center ;
+  background-size: cover;
+}
 
 @layer utilities {
   .text-balance {

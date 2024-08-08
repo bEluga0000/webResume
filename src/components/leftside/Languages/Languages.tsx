@@ -8,11 +8,11 @@ const Languages:React.FC<LanguagesProps> = ({
     title,
     languages
 }) => {
-    return <div>
+    return <div className="flex flex-col gap-1">
         <div>
             <SectionHeading desc={title.desc}/>
         </div>
-        <div>
+        <div className="flex flex-col gap-0.5">
             {
                 languages.map((l)=>{
                     return <LanguageText language={l.language} perfection={l.perfection}/>

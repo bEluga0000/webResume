@@ -9,10 +9,10 @@ const LanguageText:React.FC<LanguagesTextProps> = ({
     return <div>
         <div>
             <div>
-                <p className="text-l font-medium">{language}</p>
+                <p className="text-base font-medium">{language}</p>
             </div>
             <div>
-                <p className="italic text-red-700 text-sm ">
+                <p className="italic text-red-700 text-xs">
                     {perfection}
                 </p>
             </div>

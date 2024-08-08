@@ -10,12 +10,12 @@ const EducationText:React.FC<EducationTextProps> = ({
 }) => {
     return <div>
        <div>
-        <p className="text-xl font-bold">{qualification}</p>
+        <p className="text-base font-bold">{qualification}</p>
        </div>
-       <div className="text-lg font-medium">
+       <div className="text-sm font-medium">
         <p>{university}</p>
        </div>
-       <div className="text-sm itatlic text-red-700">
+       <div className="text-xs itatlic text-red-700">
         {year}
        </div>
     </div>

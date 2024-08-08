@@ -6,7 +6,7 @@ import { PersonalDetails } from "@/Data/personal"
 import { experince } from "@/Data/experince"
 
 const RightSide = ()=>{
-    return <div>
+    return <div className="flex flex-col gap-5">
         <div>
             <Personal name={PersonalDetails.name} about={PersonalDetails.about} desc={PersonalDetails.desc} links={PersonalDetails.links}/>
         </div>

@@ -8,11 +8,11 @@ const Intrest:React.FC<IntrestProps> = ({
     title,
     intrests
 })=>{
-    return <div>
+    return <div className="flex flex-col gap-1">
         <div>
             <SectionHeading desc={title.desc}/>
         </div>
-        <div>
+        <div className="sm:flex sm:flex-col sm:gap-0.5 grid grid-cols-3">
             {
                 intrests.map((i)=>{
                     return <IntrestText icon={i.icon} name={i.name}/>

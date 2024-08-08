@@ -14,8 +14,8 @@ const SectionHeading:React.FC<SectionHeadingProps> = ({
             </p>
         </div> */}
        <div>
-            <p className="uppercase">
-                {desc}
+            <p className="uppercase text-lg">
+                &diams;  {desc}
             </p>
        </div>
         

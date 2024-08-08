@@ -8,12 +8,12 @@ const IntrestText:React.FC<IntrestTextProps> = ({
     icon,
     name
 }) => {
-    return <div className="flex items-center">
-        <div>
+    return <div className="flex items-center gap-2">
+        <div className="">
             {icon}
         </div>
         <div >
-            <p className="text-l font-medium">{name}</p>
+            <p className="text-base font-medium">{name}</p>
         </div>
     </div>
 }
